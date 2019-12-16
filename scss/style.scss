@@ -1,0 +1,45 @@
+@import "variables.scss";
+@import "_mixin.scss";
+
+body {
+	margin: 0;
+}
+
+.head-wrapper {
+	background-color: $bcg-head;
+	@include content-center;
+	
+	flex-grow: 0;
+}
+
+@import "header.scss";
+
+.menu-wrapper {
+	background-color: $bcg-color;
+ @include content-center;
+ 
+}
+
+@import "menu.scss";
+
+@import "carusel.scss";
+
+.content-wrapper {
+	background-color: $color-link;
+	@include content-center;
+	
+	flex-grow: 1;
+}
+
+@import "content.scss";
+
+.foot-wrapper {
+	background-color: $bcg-color;
+	@include content-center;
+	
+	flex-grow: 0;
+}
+
+@import "footer.scss";
+
+@import "media.scss";

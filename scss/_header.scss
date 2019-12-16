@@ -1,0 +1,27 @@
+.header {
+	width: 980px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: $bcg-head;
+ padding:  65px 0px 65px 0px;
+ margin: 0px 10px 0px 10px;
+ 
+
+	&__logo {
+		width: 275px;
+		height: 100px;
+	}
+
+	&__phone {
+		font-family: $ff-Open_Sans_Cund;
+		font-size: $fz-title;
+		line-height: 46px;
+		color: $color-phone;
+	}
+
+	&__phone p {
+		margin: 0;
+	}
+
+}
